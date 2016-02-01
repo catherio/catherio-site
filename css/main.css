@@ -78,7 +78,6 @@ body {
     border-top: 20px solid #e44d26;
 }
 
-.header-container,
 .footer-container,
 .main aside {
     background: #f16529;
@@ -154,19 +153,22 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+h4 {
+	display: inline;
+}
 
+.profile-pic {
+    border-radius: 50%;
+	max-width:80%;
+	max-height:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.header-container {
+	background: url("file:///home/catherio/Projects/website/catherio-site/pics/self_tree_2_wide.jpg");
+	background-size: cover;	
+}
 
 /* ==========================================================================
    Media Queries
@@ -238,13 +240,13 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        float: right;
+        width: 63%;
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+        float: left;
+        width: 22%;
     }
 }
 
