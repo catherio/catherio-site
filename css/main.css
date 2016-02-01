@@ -70,17 +70,17 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #0083A9;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #0083A9;
 }
 
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #00C389;
 }
 
 .title {
@@ -107,7 +107,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #00C389; /*#9E247B;*/
 }
 
 nav a:hover,
@@ -153,6 +153,12 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+/* COLOR NOTES
+Teal/green #0083A9; #00C3C9;
+
+*/
+
+
 h4 {
 	display: inline;
 }
@@ -166,7 +172,7 @@ h4 {
 }
 
 .header-container {
-	background: url("file:///home/catherio/Projects/website/catherio-site/pics/self_tree_2_wide.jpg");
+	background: url("file:///home/catherio/Projects/website/catherio-site/pics/self_tree_2_tinycrop.jpg");
 	background-size: cover;	
 }
 
